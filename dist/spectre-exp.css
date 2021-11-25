@@ -51,7 +51,7 @@
 }
 
 .calendar {
-  border: .05rem solid #dc89f8;
+  border: .05rem solid #dadee4;
   border-radius: .1rem;
   display: block;
   min-width: 280px;
@@ -59,7 +59,7 @@
 
 .calendar .calendar-nav {
   align-items: center;
-  background: #ebbafb;
+  background: #f7f8f9;
   border-top-left-radius: .1rem;
   border-top-right-radius: .1rem;
   display: -ms-flexbox;
@@ -88,15 +88,15 @@
 }
 
 .calendar .calendar-header {
-  background: #ebbafb;
-  border-bottom: .05rem solid #dc89f8;
-  color: #ce59f5;
+  background: #f7f8f9;
+  border-bottom: .05rem solid #dadee4;
+  color: #bcc3ce;
   font-size: .7rem;
   text-align: center;
 }
 
 .calendar .calendar-body {
-  color: #830aab;
+  color: #66758c;
 }
 
 .calendar .calendar-date {
@@ -111,7 +111,7 @@
   background: transparent;
   border: .05rem solid transparent;
   border-radius: 50%;
-  color: #830aab;
+  color: #66758c;
   cursor: pointer;
   font-size: .7rem;
   height: 1.4rem;
@@ -148,7 +148,7 @@
 .calendar .calendar-date .date-item.active {
   background: #71268c;
   border-color: #612078;
-  color: #f8f8f8;
+  color: #fff;
 }
 
 .calendar .calendar-date .date-item.badge::after {
@@ -201,7 +201,7 @@
 .calendar .calendar-range.range-end .date-item {
   background: #71268c;
   border-color: #612078;
-  color: #f8f8f8;
+  color: #fff;
 }
 
 .calendar .calendar-range .date-item {
@@ -213,8 +213,8 @@
 }
 
 .calendar.calendar-lg .calendar-body .calendar-date {
-  border-bottom: .05rem solid #dc89f8;
-  border-right: .05rem solid #dc89f8;
+  border-bottom: .05rem solid #dadee4;
+  border-right: .05rem solid #dadee4;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -292,11 +292,11 @@
 .carousel .carousel-locator:nth-of-type(6):checked ~ .carousel-nav .nav-item:nth-of-type(6),
 .carousel .carousel-locator:nth-of-type(7):checked ~ .carousel-nav .nav-item:nth-of-type(7),
 .carousel .carousel-locator:nth-of-type(8):checked ~ .carousel-nav .nav-item:nth-of-type(8) {
-  color: #ebbafb;
+  color: #f7f8f9;
 }
 
 .carousel {
-  background: #ebbafb;
+  background: #f7f8f9;
   display: block;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
@@ -335,9 +335,9 @@
 
 .carousel .carousel-container .item-prev,
 .carousel .carousel-container .item-next {
-  background: rgba(235, 186, 251, .25);
-  border-color: rgba(235, 186, 251, .5);
-  color: #ebbafb;
+  background: rgba(247, 248, 249, .25);
+  border-color: rgba(247, 248, 249, .5);
+  color: #f7f8f9;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -368,7 +368,7 @@
 }
 
 .carousel .carousel-nav .nav-item {
-  color: rgba(235, 186, 251, .5);
+  color: rgba(247, 248, 249, .5);
   display: block;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -466,7 +466,7 @@
   background: currentColor;
   border-radius: 50%;
   box-shadow: 0 -5px, 0 5px;
-  color: #f8f8f8;
+  color: #fff;
   content: "";
   height: 3px;
   pointer-events: none;
@@ -498,9 +498,9 @@
 }
 
 .comparison-slider .comparison-label {
-  background: rgba(39, 3, 51, .5);
+  background: rgba(48, 55, 66, .5);
   bottom: .8rem;
-  color: #f8f8f8;
+  color: #fff;
   padding: .2rem .4rem;
   position: absolute;
   -webkit-user-select: none;
@@ -536,7 +536,7 @@
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
   background: #7b2998;
-  color: #f8f8f8;
+  color: #fff;
 }
 
 .filter .filter-tag#tag-1:checked ~ .filter-body .filter-item:not([data-tag~="tag-1"]),
@@ -565,7 +565,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #ebbafb;
+  background: #f7f8f9;
   border: 0;
   border-radius: .1rem;
   display: block;
@@ -585,7 +585,7 @@
 }
 
 .meter::-webkit-meter-bar {
-  background: #ebbafb;
+  background: #f7f8f9;
 }
 
 .meter::-webkit-meter-optimum-value {
@@ -639,7 +639,7 @@
 }
 
 .off-canvas .off-canvas-sidebar {
-  background: #ebbafb;
+  background: #f7f8f9;
   bottom: 0;
   left: 0;
   min-width: 10rem;
@@ -659,7 +659,7 @@
 }
 
 .off-canvas .off-canvas-overlay {
-  background: rgba(39, 3, 51, .1);
+  background: rgba(48, 55, 66, .1);
   border-color: transparent;
   border-radius: 0;
   bottom: 0;
@@ -706,7 +706,7 @@
 }
 
 .parallax .parallax-content {
-  box-shadow: 0 1rem 2.1rem rgba(39, 3, 51, .3);
+  box-shadow: 0 1rem 2.1rem rgba(48, 55, 66, .3);
   height: auto;
   transform: perspective(1000px);
   transform-style: preserve-3d;
@@ -726,7 +726,7 @@
 
 .parallax .parallax-front {
   align-items: center;
-  color: #f8f8f8;
+  color: #fff;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -736,7 +736,7 @@
   left: 0;
   position: absolute;
   text-align: center;
-  text-shadow: 0 0 20px rgba(39, 3, 51, .75);
+  text-shadow: 0 0 20px rgba(48, 55, 66, .75);
   top: 0;
   transform: translateZ(50px) scale(.95);
   transition: transform .4s;
@@ -848,7 +848,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #e6abfa;
+  background: #eef0f3;
   border: 0;
   border-radius: .1rem;
   color: #7b2998;
@@ -874,7 +874,7 @@
 
 .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #e6abfa linear-gradient(to right, #7b2998 30%, #e6abfa 30%) top left/150% 150% no-repeat;
+  background: #eef0f3 linear-gradient(to right, #7b2998 30%, #eef0f3 30%) top left/150% 150% no-repeat;
 }
 
 .progress:indeterminate::-moz-progress-bar {
@@ -955,38 +955,38 @@
 
 .slider:disabled::-webkit-slider-thumb,
 .slider.disabled::-webkit-slider-thumb {
-  background: #ebbafb;
+  background: #f7f8f9;
   transform: scale(1);
 }
 
 .slider:disabled::-moz-range-thumb,
 .slider.disabled::-moz-range-thumb {
-  background: #ebbafb;
+  background: #f7f8f9;
   transform: scale(1);
 }
 
 .slider:disabled::-ms-thumb,
 .slider.disabled::-ms-thumb {
-  background: #ebbafb;
+  background: #f7f8f9;
   transform: scale(1);
 }
 
 .slider::-webkit-slider-runnable-track {
-  background: #e6abfa;
+  background: #eef0f3;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
-  background: #e6abfa;
+  background: #eef0f3;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
-  background: #e6abfa;
+  background: #eef0f3;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
@@ -1004,7 +1004,7 @@
 }
 
 .timeline .timeline-item::before {
-  background: #dc89f8;
+  background: #dadee4;
   content: "";
   height: 100%;
   left: 11px;
@@ -1027,7 +1027,7 @@
 .timeline .timeline-item .timeline-icon {
   align-items: center;
   border-radius: 50%;
-  color: #f8f8f8;
+  color: #fff;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;

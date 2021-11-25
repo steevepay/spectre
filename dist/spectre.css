@@ -580,7 +580,7 @@ html:lang(ko),
 
 .btn:focus,
 .btn:hover {
-  background: #d19ce4;
+  background: #b060cd;
   border-color: #71268c;
   text-decoration: none;
 }
@@ -1391,7 +1391,7 @@ input.disabled + .form-icon {
 }
 
 .label.label-secondary {
-  background: #d19ce4;
+  background: #b060cd;
   color: #7b2998;
 }
 
@@ -2507,13 +2507,13 @@ summary.accordion-header::-webkit-details-marker {
 
 .menu .menu-item > a:focus,
 .menu .menu-item > a:hover {
-  background: #d19ce4;
+  background: #b060cd;
   color: #7b2998;
 }
 
 .menu .menu-item > a:active,
 .menu .menu-item > a.active {
-  background: #d19ce4;
+  background: #b060cd;
   color: #7b2998;
 }
 
@@ -3154,16 +3154,16 @@ a.text-primary:visited {
 }
 
 .text-secondary {
-  color: #cc90e1 !important;
+  color: #aa54c9 !important;
 }
 
 a.text-secondary:focus,
 a.text-secondary:hover {
-  color: #c37cdc;
+  color: #a141c3;
 }
 
 a.text-secondary:visited {
-  color: #d5a4e6;
+  color: #b468cf;
 }
 
 .text-gray {
@@ -3250,7 +3250,8 @@ a.text-error:visited {
 }
 
 .bg-secondary {
-  background: #d19ce4 !important;
+  background: #b060cd !important;
+  color: #fff;
 }
 
 .bg-dark {

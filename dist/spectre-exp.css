@@ -128,7 +128,7 @@
 }
 
 .calendar .calendar-date .date-item.date-today {
-  border-color: #cc90e1;
+  border-color: #aa54c9;
   color: #7b2998;
 }
 
@@ -138,8 +138,8 @@
 
 .calendar .calendar-date .date-item:focus,
 .calendar .calendar-date .date-item:hover {
-  background: #d7a8e8;
-  border-color: #cc90e1;
+  background: #b66cd1;
+  border-color: #aa54c9;
   color: #7b2998;
   text-decoration: none;
 }
@@ -179,7 +179,7 @@
 }
 
 .calendar .calendar-range::before {
-  background: #d19ce4;
+  background: #b060cd;
   content: "";
   height: 1.4rem;
   left: 0;

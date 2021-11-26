@@ -14,7 +14,7 @@
     "dist/spectre-exp.min.css"
   ],
   "scripts": {
-    "build": "./node_modules/gulp/bin/gulp.js build"
+    "build-css": "./node_modules/gulp/bin/gulp.js build"
   },
   "repository": {
     "type": "git",

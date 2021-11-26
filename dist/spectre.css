@@ -840,7 +840,7 @@ legend {
   background: #fff;
   background-image: none;
   border: .05rem solid #bcc3ce;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #3b4351;
   display: block;
   font-size: .8rem;
@@ -921,7 +921,7 @@ textarea.form-input.input-sm {
   appearance: none;
   background: #fff; 
   border: .05rem solid #bcc3ce;
-  border-radius: 10px;
+  border-radius: 5px;
   color: inherit;
   font-size: .8rem;
   height: 1.8rem;
@@ -1076,7 +1076,7 @@ textarea.form-input.input-sm {
 }
 
 .form-checkbox .form-icon {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .form-checkbox input:checked + .form-icon::before {

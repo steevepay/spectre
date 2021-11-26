@@ -5,6 +5,9 @@
   "author": "Yan Zhu <picturepan2@hotmail.com>",
   "description": "Spectre.css: A lightweight, responsive and modern CSS framework",
   "main": "dist/spectre.css",
+  "scripts": {
+    "build": "./node_modules/gulp/bin/gulp.js build"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/picturepan2/spectre.git"
